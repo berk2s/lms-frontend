@@ -1,0 +1,20 @@
+.login-page {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    .login-page-wrapper {
+        width: 380px;
+        .page-header {
+            border-bottom: solid 1px #d1d7dc;
+            padding: 24px 64px 24px 24px;
+            h3 {
+                color: #1c1d1f;
+                font-size: 15px;
+                font-weight: 700;
+            }
+        }
+        .page-content {
+            padding: 24px 24px 16px;
+        }
+    }
+}
